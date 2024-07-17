@@ -34,7 +34,7 @@ const {
   retryDelay,
   scope,
   throwOnError,
-})
+}, queryClient)
 
 mutate(variables, {
   onError,
